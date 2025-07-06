@@ -20,3 +20,31 @@ it's likely not any more dependable than the title suggests.  :)
 - [ ] Context lines ?
 - [ ] Stdin support ?
 - [ ] Output formatting (color, filenames, etc.)
+
+## Compiling and running 
+
+<b>Prerequisites:</b>
+- Requires a compiler (clang)
+- make
+
+```
+make build
+```
+> build crep:
+
+```
+make clean
+```
+> remove crep and build files
+
+```
+# Installs to /usr/local/bin/
+make install
+```
+> install to Linux machine: &ensp;
+> NOTE: location can be tailored to your needs.
+
+```
+# Uninstalls crep (should you actually install it)
+make uninstall
+```
