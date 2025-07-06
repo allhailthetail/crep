@@ -7,7 +7,7 @@
 std::vector<std::string> load_file(std::string& filename) {
 
   // Create an instance of ifstream on filename...
-  std::ifstream file(filename);
+  std::ifstream file(filename, std::ios::in);
 
   // Vector that'll hold the lines of our file:
   std::vector<std::string> lines {};
